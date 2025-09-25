@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  # Hardhat local blockchain
+  hardhat:
+    build:
+      context: ./contracts
+      dockerfile: Dockerfile
+    ports:
+      - "8545:8545"
+    volumes:
+      - ./contracts:/app
+    command: npx hardhat node --hostname 0.0.0.0
+    networks:
+      - aetherium-network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      - RPC_URL=http://hardhat:8545
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    depends_on:
+      - hardhat
+    networks:
+      - aetherium-network
+
+  # Frontend React app
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:3001/api
+      - REACT_APP_CHAIN_ID=31337
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - aetherium-network
+
+networks:
+  aetherium-network:
+    driver: bridge
+
+volumes:
+  hardhat_data:
+  backend_data:
